@@ -3,8 +3,8 @@ package practicasJava;
  * 
  * 
  * @author antonio
- *Lo que viene a continuaciÛn es la clase principal
- *de mi primera pr·ctica con Eclipse Mars
+ *Lo que viene a continuaci√≥n es la clase principal
+ *de mi primera pr√°ctica con Eclipse Mars
  */
 
 public class holaMundo {
@@ -15,18 +15,5 @@ public class holaMundo {
 		 * @deprecated Aviso de metodo obsoleto...
 		 */
 		
-ver("Antonio","Pedro","Pablo","lola");
-clasePrueba prueba1=new clasePrueba();
-clasePrueba prueba2=new clasePrueba();
-System.out.println(prueba1.variable);
-System.out.println(prueba2.variable);
-prueba1.cambiaVariable(2);
-System.out.println(prueba1.variable);
-System.out.println(prueba2.variable);
-	}
-	public static void ver(String... palabra){
-		for (String a: palabra){
-			System.out.println(a);
-		}
-	}
+System.out.println/("Hola, mundo!");
 }
